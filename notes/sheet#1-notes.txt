@@ -1,1 +1,2 @@
 - round , ceil , floor are functions availalbe in cmath header file accepting [double , float , long double]
+
