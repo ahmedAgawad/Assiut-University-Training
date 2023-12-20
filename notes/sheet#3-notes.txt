@@ -1,0 +1,4 @@
+Bubble sort alogrithm :
+-----------------------
+- simple sorting alogrithm that repeatedly swapping adjacent elements to place them in right order 
+- no suitable for large data sets as its time complexity is quite high
