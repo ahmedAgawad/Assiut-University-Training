@@ -6,3 +6,7 @@ Bubble sort alogrithm :
 Converting char to int :
 -------------------------
 int converted = char - '0';
+
+prefix sum :
+--------------
+each element equals sum of all previous elements plus element value itself
