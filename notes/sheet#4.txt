@@ -1,0 +1,27 @@
+get the string of the string :
+-------------------------------
+- str.size() / str.length()
+
+push character at the end of string / remove  :
+--------------------------------------
+- str.push_back('char')
+- str.pop_back()
+
+removing substring from a string :
+---------------------------------
+- str.erase(pos, length) --> pos to start at 
+									  length of substring to remove
+
+return a substring from a string :
+-----------------------------------
+- str.substr(pos, length) --> pos to start at
+										length of substring to return
+
+resizing a string :
+---------------------
+- str.resize(len) --> if the string is bigger than the input length the rest of character is deleted
+
+insert a string or char to original string :
+----------------------------------------------
+- str.insert(pos, string) --> start pos
+
