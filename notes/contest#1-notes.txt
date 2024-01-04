@@ -3,3 +3,7 @@ bitwise operators :
 - & (and) --> result 1 if both are 1
 - | (Or) --> result 1 if any of two bits is 1
 - ^ (xor) --> result 1 if both bits are different
+
+Min of 3 values :
+----------------------
+- min({a,b,c});
