@@ -1,0 +1,37 @@
+Modular arithmetic :
+------------------------
+- cases :
+  - x > y : gives the remainder 
+  - x < y : gives x 
+  - x == x : gives 0
+
+- properties : 
+  - (a + b) % c ==> ((a % c) + (b % c)) % c;
+  - (a * b) % c ==> ((a % c) * (b % c)) % c;
+  - IF (a) is negative number :
+    - add c until a become + number then take % c :
+	
+Factorization :
+-------------------
+- factor is a + number that is divisible by another number without remaining 
+    (x % y) == 0 --> y is factor of x
+
+- negative numbers is not a prime ones
+
+GCD : Greatest common divisor 
+-------------------------------
+- greatest common factor of 2 nums 
+
+- multiple of the common prime factros between 2 nums 
+  --> if there is no common prime factors --> GCD = 1;
+
+- Euclidean alogrithm :
+  - subtract smaller from larger number until one of them equal 0
+
+LCM : Least common mulitple :
+------------------------------
+- least number that's is mulitple of a , b --> divisible by both 
+
+- lcm is the mulitple of the most frequency of the prime factors in both
+
+- gcd(a,b) * lcm(a,b) = a*b;
